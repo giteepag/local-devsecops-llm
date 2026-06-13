@@ -25,3 +25,19 @@ cd local-devsecops-llm
 
 chmod +x scripts/setup-local-llm.sh
 ./scripts/setup-local-llm.sh
+
+Download the GGUF model:
+
+```bash
+mkdir -p ~/models
+
+wget "<GGUF_DOWNLOAD_URL>" \
+  -O ~/models/Qwen2.5-7B-Instruct-Q4_K_M.gguf
+```
+
+Start chatting:
+
+```bash
+chmod +x scripts/run-llm.sh
+./scripts/run-llm.sh
+```
