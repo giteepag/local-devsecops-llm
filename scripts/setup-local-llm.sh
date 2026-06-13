@@ -59,7 +59,7 @@ echo "$MODEL_DIR"
 echo ""
 
 echo "Example:"
-echo "wget <GGUF_DOWNLOAD_URL> -O \\"
+echo "wget https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF -O \\"
 echo "  $MODEL_DIR/Qwen2.5-7B-Instruct-Q4_K_M.gguf"
 
 echo ""

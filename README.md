@@ -31,7 +31,7 @@ Download the GGUF model:
 ```bash
 mkdir -p ~/models
 
-wget "<GGUF_DOWNLOAD_URL>" \
+wget "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF" \
   -O ~/models/Qwen2.5-7B-Instruct-Q4_K_M.gguf
 ```
 
